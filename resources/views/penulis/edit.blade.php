@@ -5,7 +5,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">Data penulis
-                        <a href="{{ route('penulis.index') }}" class="btn btn-sm btn-primary" style="float: right">Kembali</a>
+                        <a href="{{ route('penulis.index') }}" class="btn btn-sm btn-primary" style="float: right">Add</a>
                     </div>
                     <div class="card-body">
                         <form action="{{ route('penulis.update', $penulis->id) }}" method="post">
@@ -43,7 +43,7 @@
                             </div>
                             <div class="mb-2">
                                 <button class="btn btn-sm btn-success" type="submit">
-                                    Simpan
+                                    Save
                                 </button>
                             </div>
                         </form>

@@ -5,7 +5,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Data Penulis
-                    <a href="{{route('penulis.index')}}" class="btn btn-sm btn-primary" style="float: right">Kembali</a>
+                    <a href="{{route('penulis.index')}}" class="btn btn-sm btn-primary" style="float: right">return</a>
                 </div>
                 <div class="card-body">
                     <div class="mb-2">

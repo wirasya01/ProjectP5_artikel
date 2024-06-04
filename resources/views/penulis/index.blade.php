@@ -11,10 +11,10 @@
                 @endif
 
                 <div class="card">
-                    <div class="card-header bg-dark text-white">
+                    <div class="card-header bg-dark text-dark">
                         <div class="d-flex justify-content-between align-items-center">
                             <h5 class="mb-0">Data Penulis</h5>
-                            <a href="{{ route('penulis.create') }}" class="btn btn-sm btn-primary">Tambah</a>
+                            <a href="{{ route('penulis.create') }}" class="btn btn-sm btn-primary">Add</a>
                         </div>
                     </div>
                     <div class="card-body">

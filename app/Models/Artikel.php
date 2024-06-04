@@ -9,15 +9,15 @@ class Artikel extends Model
 {
     use HasFactory;
 
-   
+
 
     public function kategori()
     {
-        return $this->hasMany(Kategori::class, 'id_kategori');
+        return $this->belongsTo(Kategori::class, 'id_kategori');
     }
     public function penulis()
     {
-        return $this->hasMany(Penulis::class, 'id_penulis');
+        return $this->belongsTo(Penulis::class, 'id_penulis');
     }
     public function deleteImage()
     {

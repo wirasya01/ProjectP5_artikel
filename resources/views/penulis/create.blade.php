@@ -6,7 +6,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header bg-dark text-white">Data Penulis
-                        <a href="{{ route('penulis.index') }}" class="btn btn-sm btn-primary" style="float: right">Kembali</a>
+                        <a href="{{ route('penulis.index') }}" class="btn btn-sm btn-primary" style="float: right">Return</a>
                     </div>
                     <div class="card-body">
                         <form action="{{ route('penulis.store') }}" method="post">
@@ -49,7 +49,7 @@
                                 <button class="btn btn-lg btn-success" type="submit">
                                     <span class="spinner-border spinner-border-sm d-none" role="status"
                                         aria-hidden="true"></span>
-                                    Simpan
+                                    Save
                                 </button>
                             </div>
                         </form>

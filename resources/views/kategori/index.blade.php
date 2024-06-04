@@ -12,7 +12,7 @@
             <div class="card">
                 <div class="card-header">Data Kategeoi
                     <a href="{{route('kategori.create')}}" class="btn btn-sm btn-primary"
-                        style="float: right">Tambah</a>
+                        style="float: right">Add</a>
                 </div>
                 <div class="card-body">
                     <div class="table-reponsive">

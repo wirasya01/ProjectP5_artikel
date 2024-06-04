@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-header">Data kategori
                     <a href="{{route('kategori.index')}}" class="btn btn-sm btn-primary"
-                        style="float: right">Kembali</a>
+                        style="float: right">Return</a>
                 </div>
                 <div class="card-body">
                     <form action="{{route('kategori.store')}}" method="post">
@@ -23,7 +23,7 @@
                         </div>
                         <div class="mb-2">
                             <button class="btn btn-sm btn-success" type="submit">
-                                Simpan
+                                Save
                             </button>
                         </div>
                     </form>

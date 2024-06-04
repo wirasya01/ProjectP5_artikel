@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArtikelController;
+use App\Http\Controllers\FrontController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\PenulisController;
 use Illuminate\Support\Facades\Route;
@@ -15,10 +16,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
  */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [FrontController::class, 'Artikel']);
 
 Auth::routes();
 

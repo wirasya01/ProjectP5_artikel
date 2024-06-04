@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card border-0 shadow-lg">
-                <div class="card-header bg-dark text-white">
+                <div class="card-header bg-dark text-black">
                     <h4>{{ __('Dashboard') }}</h4>
                 </div>
 
@@ -17,7 +17,7 @@
                     @endif
 
                     <div class="text-center">
-                        <h5 class="mb-4">Welcome back!</h5>
+                        <h5 class="mb-4">Welcome back, {{ Auth::user()->name }}!</h5>
                         <p class="fs-5">You are logged in!</p>
                     </div>
                 </div>

@@ -10,6 +10,6 @@ class Penulis extends Model
     use HasFactory;
     public function penulis()
     {
-        return $this->belongsTo(Penulis::class, 'id_penulis');
+        return $this->hasMany(Penulis::class, 'id_penulis');
     }
 }

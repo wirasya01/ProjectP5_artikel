@@ -5,7 +5,7 @@
              <div class="col-md-10">
                  <div class="card">
                      <div class="card-header">Edit Artikel
-                         <a href="{{ route('artikel.index') }}" class="btn btn-sm btn-primary" style="float: right">Kembali</a>
+                         <a href="{{ route('artikel.index') }}" class="btn btn-sm btn-primary" style="float: right">Return</a>
                      </div>
                      <div class="card-body">
                          <form action="{{ route('artikel.update', $artikel->id) }}" method="post"

@@ -5,7 +5,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">Data Artikel
-                        <a href="{{ route('artikel.index') }}" class="btn btn-sm btn-primary" style="float: right">Kembali</a>
+                        <a href="{{ route('artikel.index') }}" class="btn btn-sm btn-primary" style="float: right">Return</a>
                     </div>
                     <div class="card-body">
                         <div class="mb-2">
@@ -16,9 +16,9 @@
                     </div>
                     <div class="card-body">
                         <div class="mb-2">
-                            <label for="">Id_Penulis</label>
+                            <label for="">Nama Penulis</label>
                             <input type="text" class="form-control @error('nama_penulis') is-invalid @enderror"
-                                name="nama_penulis" value="{{ $artikel->nama_penulis }}" disabled>
+                                name="nama_penulis" value="{{ $artikel->penulis->nama_penulis }}" disabled>
                         </div>
                     </div>
                     <div class="card-body">
@@ -40,7 +40,7 @@
                         <div class="mb-2">
                             <label for="">Kategori</label>
                             <input type="text" class="form-control @error('nama_kategori') is-invalid @enderror"
-                                name="nama_kategori" value="{{ $artikel->nama_kategori }}" disabled>
+                                name="nama_kategori" value="{{ $artikel->kategori->nama_kategori }}" disabled>
                         </div>
                     </div>
                 </div>
