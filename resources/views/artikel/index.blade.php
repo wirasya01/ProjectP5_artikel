@@ -47,7 +47,7 @@
                                                         <a
                                                             href="https://material-blog-pro-laravel.creative-tim.com/author/admin-guy">
                                                             <b>{{ $item->penulis->nama_penulis }}</b>
-                                                        </a> &#8226; May 31, 2024 &#8226; 5 min read
+                                                        </a>
                                                     </p>
                                                     <form action="{{ route('artikel.destroy', $item->id) }}" method="post">
                                                         @method('DELETE')

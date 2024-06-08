@@ -23,9 +23,9 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::group(['middleware' => ['auth']], function () {
-    Route::resource('kategori', KategoriController::class);
-    Route::resource('penulis', PenulisController::class);
-    Route::resource('artikel', ArtikelController::class);
+    Route::resource('admin/kategori', KategoriController::class);
+    Route::resource('admin/penulis', PenulisController::class);
+    Route::resource('admin/artikel', ArtikelController::class);
 
 });
 

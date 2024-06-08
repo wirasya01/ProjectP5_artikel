@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-translate">
             <a class="navbar-brand" href="">
-                Artikel </a>
+                Admin Web Artikel </a>
             <button class="navbar-toggler navbar-toggler-main" type="button" data-toggle="collapse" aria-expanded="false"
                 aria-label="Toggle navigation" data-target="#sectionsNav">
                 <span class="sr-only">Toggle navigation</span>
@@ -16,7 +16,7 @@
                 <li class="button-container dropdown nav-item mr-lg-2">
                     <a href target="_blank" class="btn btn-info btn-round btn-block dropdown-toggle"
                         data-toggle="dropdown">
-                        Login as
+                        {{ Auth::user()->name }}
                     </a>
                     <div class="dropdown-menu dropdown-with-icons">
                         <form method="get" action="https://material-blog-pro-laravel.creative-tim.com/login"

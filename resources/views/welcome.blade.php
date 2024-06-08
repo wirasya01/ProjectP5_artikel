@@ -36,11 +36,11 @@
                         @auth
                             <a href="{{ url('/home') }}"
                                 class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                        @else
-                            <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Log in</a></li>
-                            @if (Route::has('register'))
+                        {{-- @else
+                            <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Log in</a></li> --}}
+                            {{-- @if (Route::has('register'))
                                 <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Register</a></li>
-                            @endif
+                            @endif --}}
                         @endauth
                     </ul>
                 @endif
@@ -168,7 +168,7 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="#!">kelompok5@gmail.com</a></div>
+                            <div class="small text-black-50"><a href="#!">Rasya01@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Phone</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">+6289 5422 688852</div>
+                            <div class="small text-black-50">+62 83808085691</div>
                         </div>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
             <div class="social d-flex justify-content-center">
                 <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                 <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                <a class="mx-2" href="https://github.com/wirasya01"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </section>
